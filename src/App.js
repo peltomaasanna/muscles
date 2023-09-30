@@ -5,7 +5,7 @@ import {useEffect} from 'react'
 import axios from 'axios';
 
 const apiURL ='https://api.api-ninjas.com/v1/exercises?muscle=biceps';
-const apiKey = 'sNFImdxMXe+4yhflDbMfcA==iSQX5kcNAT21z9Jl';
+const apiKey = 'TÄHÄN PITÄÄ LAITTAA APIKEY';
 
 
 function App() {

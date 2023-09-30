@@ -44,6 +44,7 @@ function App() {
   return (
     <div id="container">
     <h1>Welcome to search for muscle exercises</h1>
+    <h4>Give search parameters and press the search button. A randomly selected list of maximum 10 exercises found with search criteria will be shown. In case there are no exercises found, the list is empty. Try then with different criteria.</h4>
     <h3>Search criteria</h3>
       <div>
         <label>Name: </label>
@@ -85,11 +86,11 @@ function App() {
       
 
     <div>
-        <h1>List of Exercises</h1>
+        <h3>List of Exercises</h3>
         <ul>
           {exerciseData.map((exercise, index) => (
             <li key={index}>
-              <h2>{exercise.name}</h2>
+              <h4>{exercise.name}</h4>
               <p><strong>Type:</strong> {exercise.type}</p>
               <p><strong>Muscle:</strong> {exercise.muscle}</p>
               <p><strong>Equipment:</strong> {exercise.equipment}</p>
